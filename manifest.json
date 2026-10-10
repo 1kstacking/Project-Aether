@@ -2,35 +2,16 @@
   "$schema": "https://json-schema.org",
   "secure_infrastructure_manifest": {
     "target_repository_name": "1kstacking/-robinhood-reality-showfinaltest",
-    "project_codename": "Project-Aether-Hardened-Core",
-    "version_release": "4.0.0-Secured",
+    "project_codename": "Project-Aether-Transmission-Core",
+    "version_release": "6.0.0-AlertsFocus",
     "system_architecture": {
       "execution_engine": "app.py",
       "package_requirements": "requirements.txt",
-      "state_memory_isolation": "Enforced cryptographic validation hash checks per session routing array"
+      "alert_handling_mode": "Isolated SessionState stack ingestion framework instead of continuous dataset parsing"
     },
     "defensive_parameters": {
-      "input_bounds_sanitization": true,
-      "arithmetic_overflow_prevention": true,
-      "suppress_custom_css_markdown_injections": true
-    }
-  }
-}
-{
-  "$schema": "https://json-schema.org",
-  "secure_infrastructure_manifest": {
-    "target_repository_name": "1kstacking/-robinhood-reality-showfinaltest",
-    "project_codename": "Project-Aether-Hardened-Core-v5",
-    "version_release": "5.2.0-LiveAPI",
-    "system_architecture": {
-      "execution_engine": "app.py",
-      "package_requirements": "requirements.txt",
-      "cache_clear_override_active": true,
-      "state_memory_isolation": "Enforced cryptographic validation hash checks per session routing array"
-    },
-    "defensive_parameters": {
-      "input_bounds_sanitization": true,
-      "api_rate_limit_protection": "Enabled via 60s Streamlit TTL caching hooks"
+      "suppress_analytical_overhead": true,
+      "instant_ui_rerun_triggers": true
     }
   }
 }
